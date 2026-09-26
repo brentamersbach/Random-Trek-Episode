@@ -33,7 +33,7 @@ struct SettingsView: View {
     //MARK: - View hierarchy
     
     var body: some View {
-        NavigationView() {
+        NavigationStack {
             VStack() {                    
                 Form() {
                     Section(header: Text("Series Selection")) {
@@ -61,8 +61,8 @@ struct SettingsView: View {
                         }
                         .padding(.horizontal, 20)
                         .padding(.vertical, 10)
-                        .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
-                        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(.white)
+                        .background(Color.blue)
                         .clipShape(Capsule())
                         
                         Spacer()
@@ -72,8 +72,8 @@ struct SettingsView: View {
                         }
                         .padding(.horizontal, 20)
                         .padding(.vertical, 10)
-                        .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
-                        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(.white)
+                        .background(Color.blue)
                         .clipShape(Capsule())
 
                         Spacer()
@@ -82,19 +82,12 @@ struct SettingsView: View {
                 
                 Spacer()
                 
-                NavigationLink(destination: ResultView()
-                                .environmentObject(applicationOptions), isActive: $isShowingResult) {
-                    if !isShowingResult {
-                        Button(action: { isShowingResult.toggle() }) {
-                            Text("Show Result")
-                                .padding()
-                                .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
-                                .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
-                                .clipShape(Capsule())
-                        }
-                    } else {
-                        EmptyView()
-                    }
+                Button(action: { isShowingResult.toggle() }) {
+                    Text("Show Result")
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(Color.blue)
+                        .clipShape(Capsule())
                 }
                 
                 Spacer()
@@ -108,6 +101,10 @@ struct SettingsView: View {
             }
         }
         .padding()
+        .navigationDestination(isPresented: $isShowingResult) {
+            ResultView()
+                .environmentObject(applicationOptions)
+        }
         .navigationBarHidden(false)
     }
 }
@@ -126,3 +123,4 @@ struct SettingsView_Previews: PreviewProvider {
             .previewDevice("iPhone 12")
     }
 }
+
