@@ -23,5 +23,6 @@ class Options: ObservableObject {
         self.seriesList.append(Series(seriesTitle: "Lower Decks", abbreviation: "LD", episodes: []))
         self.seriesList.append(Series(seriesTitle: "Prodigy", abbreviation: "PRO", episodes: []))
         self.seriesList.append(Series(seriesTitle: "Strange New Worlds", abbreviation: "SNW", episodes: []))
+        self.seriesList.append(Series(seriesTitle: "Starfleet Academy", abbreviation: "SA", episodes: []))
     }
 }

@@ -8,3 +8,33 @@ The Serene Squall	1x07	107	1997.9	2022-06-16
 The Elysian Kingdom	1x08	108	2341.6	2022-06-23
 All Those Who Wander	1x09	109	2510.6	2022-06-30
 A Quality of Mercy	1x10	110	1457.9-1709.2	2022-07-07
+The Broken Circle	2x01	201	2369.2	2023-06-15
+Ad Astra per Aspera	2x02	202	2393.8	2023-06-22
+Tomorrow and Tomorrow and Tomorrow	2x03	203	1581.2	2023-06-29
+Among the Lotus Eaters	2x04	204	1630.1–1632.2	2023-07-06
+Charades	2x05	205	1789.3	2023-07-13
+Lost in Translation	2x06	206	2394.8	2023-07-20
+Those Old Scientists	2x07	207	2291.6 / 58460.1	2023-07-22
+Under the Cloak of War	2x08	208	1875.4–1877.5	2023-07-27
+Subspace Rhapsody	2x09	209	2398.3	2023-08-03
+Hegemony	2x10	210	2344.2	2023-08-10
+Hegemony, Part II	3x01	301	Unknown	2025-07-17
+Wedding Bell Blues	3x02	302	2251.7	2025-07-17
+Shuttle to Kenfori	3x03	303	2449.1	2025-07-24
+A Space Adventure Hour	3x04	304	Unknown	2025-07-31
+Through the Lens of Time	3x05	305	2184.4	2025-08-07
+The Sehlat Who Ate Its Tail	3x06	306	Unknown	2025-08-14
+What Is Starfleet?	3x07	307	2191.4	2025-08-21
+Four-and-a-Half Vulcans	3x08	308	3111.1	2025-08-28
+Terrarium	3x09	309	2198.7	2025-09-04
+New Life and New Civilizations	3x10	310	3165.2	2025-09-11
+Valles Marineris	4x01	401	2491.5	2026-07-23
+The Griffin Incident	4x02	404	2903.9	2026-07-30
+Human Best Friend	4x03	402	2011.7	2026-08-06
+A Case of Chiaroscuro	4x04	403	2122.4	2026-08-13
+Level-Five Transporter Accident	4x05	405	3019.4	2026-08-20
+Off-Hour	4x06	406	1213.72	2026-08-27
+Like Chronitons Through the Hourglass	4x07	407	2654.9	2026-09-03
+Orders of Magnitude	4x08	408	2179.3	2026-09-10
+Once La'An a Time	4x09	409	2355.6	2026-09-17
+Tomorrow's Enterprise	4x10	410	2873.2 / 2876.2	2026-09-24

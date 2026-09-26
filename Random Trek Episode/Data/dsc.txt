@@ -53,3 +53,13 @@ The Galactic Barrier	4x10	410	Unknown	2022-02-24
 Rosetta	4x11	411	865783.7	2022-03-03
 Species Ten-C	4x12	412	Unknown	2022-03-10
 Coming Home	4x13	413	Unknown	2022-03-17
+Red Directive	5x01	501	Unknown	2024-04-04
+Under the Twin Moons	5x02	502	866274.3	2024-04-04
+Jinaal	5x03	503	Unknown	2024-04-11
+Face the Strange	5x04	504	Unknown	2024-04-18
+Mirrors	5x05	505	866282.9	2024-04-25
+Whistlespeak	5x06	506	Unknown	2024-05-02
+Erigah	5x07	507	Unknown	2024-05-09
+Labyrinths	5x08	508	Unknown	2024-05-16
+Lagrange Point	5x09	509	Unknown	2024-05-23
+Life, Itself	5x10	510	Unknown	2024-05-30

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4080CC72689875600FE06DF /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4080CC62689875600FE06DF /* ResultView.swift */; };
+		A43E0B6130688F6900AC50C9 /* sa.txt in Resources */ = {isa = PBXBuildFile; fileRef = A43E0B6030688F6300AC50C9 /* sa.txt */; };
 		A44FA3F729FDB55900C0C9CF /* pro.txt in Resources */ = {isa = PBXBuildFile; fileRef = A44FA3F529FDB55900C0C9CF /* pro.txt */; };
 		A44FA3F829FDB55900C0C9CF /* snw.txt in Resources */ = {isa = PBXBuildFile; fileRef = A44FA3F629FDB55900C0C9CF /* snw.txt */; };
 		A478C947268BEB8B008C1783 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = A478C946268BEB8B008C1783 /* Options.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		A4080CC62689875600FE06DF /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		A43E0B6030688F6300AC50C9 /* sa.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sa.txt; sourceTree = "<group>"; };
 		A44FA3F529FDB55900C0C9CF /* pro.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pro.txt; sourceTree = "<group>"; };
 		A44FA3F629FDB55900C0C9CF /* snw.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = snw.txt; sourceTree = "<group>"; };
 		A478C946268BEB8B008C1783 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				A496A5FD268E7A4B00A76FD3 /* ld.txt */,
 				A44FA3F529FDB55900C0C9CF /* pro.txt */,
 				A44FA3F629FDB55900C0C9CF /* snw.txt */,
+				A43E0B6030688F6300AC50C9 /* sa.txt */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			files = (
 				A496A600268E7A4C00A76FD3 /* ld.txt in Resources */,
 				A496A5FF268E7A4C00A76FD3 /* dsc.txt in Resources */,
+				A43E0B6130688F6900AC50C9 /* sa.txt in Resources */,
 				A496A5F7268E730400A76FD3 /* tng.txt in Resources */,
 				A496A5FA268E791000A76FD3 /* ent.txt in Resources */,
 				A496A5EF268E5BB400A76FD3 /* tos.txt in Resources */,

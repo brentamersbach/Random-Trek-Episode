@@ -54,13 +54,16 @@ class Series: Identifiable {
         
         let lines = fileContent.components(separatedBy: "\n")
         for line in lines {
+            if line.isEmpty {
+                continue
+            }
             let fields = line.components(separatedBy: "\t")
             let episodeTitle = fields[0]
             let season = Int(fields[1].prefix(1)) ?? 0
             let number = Int(fields[1].suffix(2)) ?? 0
             
             #if DEBUG
-            print("Episode Title: \(seriesTitle), Season: \(season), Number: \(number)")
+            print("Series: \(self.seriesTitle) Episode Title: \(episodeTitle), Season: \(season), Number: \(number)")
             #endif
             
             let episode = Episode(title: episodeTitle, series: seriesTitle, season: season, number: number)

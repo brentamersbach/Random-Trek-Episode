@@ -17,3 +17,23 @@ Ghost in the Machine	1x17	117	Unknown	2022-12-08
 Mindwalk	1x18	118	Unknown	2022-12-15
 Supernova, Part 1	1x19	119	Unknown	2022-12-22
 Supernova, Part 2	1x20	120	Unknown	2022-12-29
+Into the Breach, Part I	2x01	201	Unknown	2024-07-01
+Into the Breach, Part II	2x02	202	61859.6	2024-07-01
+Who Saves the Saviors	2x03	203	61860.1	2024-07-01
+Temporal Mechanics 101	2x04	204	112152.1	2024-07-01
+Observer's Paradox	2x05	205	61865.1	2024-07-01
+Imposter Syndrome	2x06	206	Unknown	2024-07-01
+The Fast and the Curious	2x07	207	61875.9	2024-07-01
+Is There in Beauty No Truth?	2x08	208	61881.4	2024-07-01
+The Devourer of All Things, Part I	2x09	209	61886.6	2024-07-01
+The Devourer of All Things, Part II	2x10	210	Unknown	2024-07-01
+Last Flight of the Protostar, Part I	2x11	211	Unknown	2024-07-01
+Last Flight of the Protostar, Part II	2x12	212	61898.2	2024-07-01
+A Tribble Called Quest	2x13	213	Unknown	2024-07-01
+Cracked Mirror	2x14	214	Unknown	2024-07-01
+Ascension, Part I	2x15	215	61945.4	2024-07-01
+Ascension, Part II	2x16	216	Unknown	2024-07-01
+Brink	2x17	217	62083.5	2024-07-01
+Touch of Grey	2x18	218	62091.1	2024-07-01
+Ouroboros, Part I	2x19	219	Unknown	2024-07-01
+Ouroboros, Part II	2x20	220	62314.8	2024-07-01
