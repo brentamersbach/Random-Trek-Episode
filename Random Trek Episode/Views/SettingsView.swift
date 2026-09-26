@@ -33,8 +33,8 @@ struct SettingsView: View {
     //MARK: - View hierarchy
     
     var body: some View {
-        NavigationStack {
-            VStack() {                    
+        NavigationView() {
+            VStack() {
                 Form() {
                     Section(header: Text("Series Selection")) {
                         ForEach(applicationOptions.seriesList.indices, id: \.self) { i in
@@ -42,16 +42,16 @@ struct SettingsView: View {
                                 Text(applicationOptions.seriesList[i].abbreviation)
                             }
                         }
-                        
+
                     }
 
                 }
                 .navigationTitle(Text("LCARS Access"))
                 .navigationBarHidden(false)
-//                .frame(height: 460)
-                
-//                Divider()
-                
+                //                .frame(height: 460)
+
+                //                Divider()
+
                 VStack() {
                     Text("Toggle All")
                     HStack() {
@@ -61,35 +61,42 @@ struct SettingsView: View {
                         }
                         .padding(.horizontal, 20)
                         .padding(.vertical, 10)
-                        .foregroundColor(.white)
-                        .background(Color.blue)
+                        .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
                         .clipShape(Capsule())
-                        
+
                         Spacer()
-                        
+
                         Button(action: toggleAllOff) {
                             Text("Off")
                         }
                         .padding(.horizontal, 20)
                         .padding(.vertical, 10)
-                        .foregroundColor(.white)
-                        .background(Color.blue)
+                        .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
                         .clipShape(Capsule())
 
                         Spacer()
                     }
                 }
-                
+
                 Spacer()
-                
-                Button(action: { isShowingResult.toggle() }) {
-                    Text("Show Result")
-                        .padding()
-                        .foregroundColor(.white)
-                        .background(Color.blue)
-                        .clipShape(Capsule())
-                }
-                
+
+                NavigationLink(destination: ResultView()
+                    .environmentObject(applicationOptions), isActive: $isShowingResult) {
+                        if !isShowingResult {
+                            Button(action: { isShowingResult.toggle() }) {
+                                Text("Show Result")
+                                    .padding()
+                                    .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                                    .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/)
+                                    .clipShape(Capsule())
+                            }
+                        } else {
+                            EmptyView()
+                        }
+                    }
+
                 Spacer()
             }
         }
@@ -101,10 +108,6 @@ struct SettingsView: View {
             }
         }
         .padding()
-        .navigationDestination(isPresented: $isShowingResult) {
-            ResultView()
-                .environmentObject(applicationOptions)
-        }
         .navigationBarHidden(false)
     }
 }
